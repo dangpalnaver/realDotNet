@@ -18,6 +18,7 @@ namespace WebApplication1
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);            
+
         }
     }
 }
